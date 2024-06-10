@@ -1,0 +1,42 @@
+[
+  {
+    "name": "page1",
+    "title": "Email",
+    "time": {
+      "minutes": "00",
+      "seconds": "04",
+      "milliseconds": "580"
+    },
+    "value": "ss@mail.com"
+  },
+  {
+    "name": "page2",
+    "title": "Genero",
+    "time": {
+      "minutes": "00",
+      "seconds": "03",
+      "milliseconds": "050"
+    },
+    "value": "Item 2"
+  },
+  {
+    "name": "page3",
+    "title": "Edad",
+    "time": {
+      "minutes": "00",
+      "seconds": "06",
+      "milliseconds": "630"
+    },
+    "value": "2024-06-09T22:05"
+  },
+  {
+    "name": "page4",
+    "title": "Preferencia",
+    "time": {
+      "minutes": "00",
+      "seconds": "02",
+      "milliseconds": "220"
+    },
+    "value": "Image 1"
+  }
+]
