@@ -61,6 +61,9 @@ function updateTimer() {
   const formattedSeconds = pad(seconds, 2);
   const formattedMinutes = pad(minutes, 2);
 
+  // document.getElementById(
+  //   "timer"
+  // ).innerText = `${formattedMinutes}:${formattedSeconds}:${formattedMilliseconds}`;
 
   return {
     minutes: formattedMinutes,
