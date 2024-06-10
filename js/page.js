@@ -166,14 +166,17 @@ function SurveyInit() {
       time: getLastQuestionTime,
     });
 
+    const valuesFormatted = Object.entries(values);
+
     SURVEY_RESPOND_JSON.pages = SURVEY_RESPOND_JSON.pages.map(
       (question, indx) => {
+        const [questionNumber, value] = valuesFormatted[indx] ?? [];
         const q = question;
         delete q.elements;
         return {
           ...q,
-          value: values[`question${indx + 1}`],
-          name: `question${indx + 1}`,
+          value,
+          name: questionNumber,
         };
       }
     );
