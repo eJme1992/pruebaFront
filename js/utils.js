@@ -1,5 +1,5 @@
 export const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-export const BASE_URL = "http://127.0.0.1:8000";
+export const BASE_URL = "http://127.0.0.1:8080";
 export function fetch(url, options, success, error) {
   const { headers = {}, method, body = {}, dataType = "json" } = options;
   $.ajax({
